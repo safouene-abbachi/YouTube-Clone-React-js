@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { Paper, Typography } from "@material-ui/core";
+
 const VideoDetail = ({ video }) => {
   if (!video) return <div>loading...</div>;
   console.log(video);
